@@ -1,0 +1,232 @@
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  }
+  
+  
+  header {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    opacity: 0.8;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    margin-right: 20px;
+  }
+  
+  .logo-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  
+
+  
+  
+
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    background-image: url('path/to/pattern/image.jpg')
+    ;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  
+
+  
+  
+  
+  
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  nav a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+ 
+  .container {
+    display: flex;
+  }
+  .container1 {
+    display: flex;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 2.1); ;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  }
+  
+  th {
+    background-color: #ccc;
+    color: #000;
+    font-weight: bold;
+    padding: 10px;
+    
+  }
+  
+  td {
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 10px;
+   
+  }
+  
+  tr:nth-child(even) td {
+    background-color: #e6e6e6;
+  }
+  
+  tr:hover td {
+    background-color: #c0c0c0;
+    color: #fff;
+  }
+  
+  
+  
+  .content {
+    width: 33%;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .image {
+    width: 67%;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }
+  .image1 {
+    width: 33%;
+    text-align: center;
+    padding: 20px;
+    background-image: url("ansh.jpg");
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .image1 img {
+    max-width: 120%;
+    height: 110%;
+  }
+  .image2 {
+    width: 33%;
+    text-align: center;
+    padding: 20px;
+    background-image: url("teams.jpg");
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 2.1);
+  }
+  
+  .image2 img {
+    max-width: 100%;
+    height: 100%;
+  }
+  .image3 {
+    width: 34%;
+    text-align: center;
+    padding: 20px;
+    background-image: url("shantanu.jpg");
+    background-size: cover;
+    
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .image3 img {
+    max-width: 100%;
+    height: 100%;
+  }
+  .hi-there {
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+  }
+  
+  .hi-there h1 {
+    margin: 0;
+    font-size: 3em;
+    font-family: "montserrat", sans-serif;
+    color: yellow;
+  }
+
+  
+  .foot{
+    height: 100px;
+background-color: rgb(227, 225, 225);
+font-size: 25px;
+padding-bottom: 20px;
+    border: 5px solid black ;
+}
+  
+  
+  
+  
+  
+
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
